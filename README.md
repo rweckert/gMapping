@@ -130,7 +130,7 @@ Terminal=false<br/>
 
 ### Project Contents:
 **Project Page:** <br/>
-[https://github.com/rweckert/gMapping]([url](https://github.com/rweckert/gMapping))<br/>
+[https://github.com/rweckert/gMapping](https://github.com/rweckert/gMapping)<br/>
 **Source File:** <br/>
 [https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/gMapping.sh](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/gMapping.sh)<br/>
 **Documentation File:** <br/>
