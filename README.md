@@ -4,7 +4,7 @@ gMapping is a simple map browser using the embedded Google Maps API.
 ### Script Purpose as a Tool:
 Open gMappng to enable mapping features from the Linux desktop providing satellite, road-map, and zoom features. Options to save or copy and retrieve maps with locations, map type and zoom levels.
 
-
+![qFind Screenshot](https://github.com/rweckert/gMapping/blob/main/screenshot-gMapping.jpg)
 
 ### Setup:
 - Save the gMapping.sh file to a directory.
