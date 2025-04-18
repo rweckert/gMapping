@@ -78,9 +78,9 @@ When viewing the "Theme" option, the following options are available:<br/>
 **- Browse Themes Folder:** Browse the default themes folder "/usr/share/themes/".<br/>
 **- Help:** Opens gMapping help documentation.<br/>
 **- About:** Opens the about window showing script credits.<br/>
-**- Close:** Closes the "Options" window.
+**- Close:** Closes the "Options" window.<br/>
 #### Map Position:
-This screen contains options to adjust the positioning and size of the mapping window:
+This screen contains options to adjust the positioning and size of the mapping window:<br/>
 **- Window Width:** Adjust the mapping window width by pixels.<br/>
 **- window Height:** Adjust the mapping window height by pixels.<br/>
 **- Window From Top:** Adjust mapping window position from the top of the screen in pixels.<br/>
