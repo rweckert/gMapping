@@ -50,9 +50,9 @@ Each of the options for mapping from the main menu operate in the same way but a
 **- Address:** Map by address. Example: 945 Park Villa Place, Escondido, CA, 92025.<br/>
 **- Location:** Map by location. Example: Coronado Bridge, San Diego CA.<br/>
 **- Zip/Postal:** Map by zip code or postal code. Example: 59801<br/>
-* _Hint_: Select zoom level between 8 and 13 in order to show outline of zip code or postal code.<br/>
+_Hint_: Select zoom level between 8 and 13 in order to show outline of zip code or postal code.<br/>
 **- City/Town:** Map by name of city or town. Example: Missoula<br/>
-* _Hint_: Select zoom level between 8 and 13 in order to show outline of city or town.<br/>
+_Hint_: Select zoom level between 8 and 13 in order to show outline of city or town.<br/>
 **- County/Province:** Map by County or Province. Example: North County<br/>
 **- Coordinates:** Map by Longitude and Latitude. This will pin point your map to a particular location.<br/>
 **- Saved:** View saved map links, load a saved map with a double click on the option listed. Details for viewing saved map links are listed below.<br/>
@@ -60,22 +60,34 @@ Each of the options for mapping from the main menu operate in the same way but a
 **- Exit:** Closes all menus and windows related to the gMapping script.<br/>
 
 ### Saved Maps:
+Each mapping menu has a option for “Save” which allows the user to save the mapping link for future use. The main menu has the option “Saved” that displays all saved maps and provides the following options:<br/>
+**- Double Click:** To load a saved map link, double click on the item listed. This will open the map using the same details for location, map type and zoom level as when saved.<br/>
+**- Selected Detail:** This option will show you the details of the highlighted link. The “Detail” window will show you all items of the selected link in detail with options to copy the mapping link or all details of the link.<br/>
+**- Clear List:** Clears the “Saved Maps” window of all saved map links.<br/>
+**- Open List:** Opens the list into a default text editor.<br/>
+**- Close:** Closes the “Saved Maps” window.<br/>
 
-### Settings Usage:
-
-
-
-
-### Map Position:
+### Options Usage:
+The "Options" main menu option allows the user to change settings for the theme being used, map window size and locaton, as well as access to "Help" and "About" options.
+## Theme Options:
+When viewing the "Theme" option, the following options are available:<br/>
+**- Load Theme:** Allows the user to browse their system for a theme to use.<br/>
+**- Apply Loaded Theme:** Applies the loaded theme. Once selected the Options window will close and re-open showing the theme selected in use.<br/>
+**- Mode:** Select basic system theme available in the system for "Light Theme" or "Dark Theme". This default uses the "Breeze" theme package located in the "/usr/share/themes/" folder.<br/>
+**- Apply System Theme:** Applies the Mode selected for either "Light Theme" or "Dark Theme". Once selected the Options window will close and re-open showing the theme selected in use.<br/>
+**- Browse Themes Folder:** Browse the default themes folder "/usr/share/themes/".<br/>
+**- Help:** Opens gMapping help documentation.<br/>
+**- About:** Opens the about window showing script credits.<br/>
+**- Close:** Closes the "Options" window.
+## Map Position:
 This screen contains options to adjust the positioning and size of the mapping window:
 **- Window Width:** Adjust the mapping window width by pixels.<br/>
 **- window Height:** Adjust the mapping window height by pixels.<br/>
 **- Window From Top:** Adjust mapping window position from the top of the screen in pixels.<br/>
 **- Window From Left:** Adjust mapping window position from the left of the screen in pixels.<br/>
-
-Click on the "Save" button to save your changes or select "Cancel" to not save changes and close the settings window.
-
-
+Click on the "Save" button to save your changes or select "Cancel" to not save changes and close the settings window.<br/>
+**- Help:** Opens gMapping help documentation.<br/>
+**- About:** Opens the about window showing script credits.<br/>
 
 ### Notes:
 - gMapping can be ran from any directory.
@@ -83,8 +95,14 @@ Click on the "Save" button to save your changes or select "Cancel" to not save c
 - A map location no found will default to the world map.
 - Map links extracted will only work within a "FRAME" html element.
 
-
-
+### Common System Requirements:
+The following applications are in general use of most Linux systems and are used in having qFind deliver output:
+- grep
+- read
+- rm
+- sed
+- wmctrl
+- xdg-open
 
 ### Critical System Requirements:
 The most important requirement is the yad (yet another dialog) application which allows for the use of custom dialog, menu, and window options.
