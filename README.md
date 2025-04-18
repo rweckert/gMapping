@@ -7,8 +7,8 @@ Open gMappng to enable mapping features from the Linux desktop providing satelli
 ![qFind Screenshot](https://github.com/rweckert/gMapping/blob/main/screenshot-gMapping.jpg)
 
 ### Setup:
-- Save the gMapping.sh file to a directory.
-- Make the gMapping.sh script executable by running the following command in the same directory as the gMapping.sh file:<br/>
+1. Save the gMapping.sh file to a directory.
+2. Make the gMapping.sh script executable by running the following command in the same directory as the gMapping.sh file:<br/>
 _chmod +x gMapping.sh_
 
 ### Features:
@@ -82,7 +82,7 @@ When viewing the "Theme" option, the following options are available:<br/>
 #### Map Position:
 This screen contains options to adjust the positioning and size of the mapping window:<br/>
 **- Window Width:** Adjust the mapping window width by pixels.<br/>
-**- window Height:** Adjust the mapping window height by pixels.<br/>
+**- Window Height:** Adjust the mapping window height by pixels.<br/>
 **- Window From Top:** Adjust mapping window position from the top of the screen in pixels.<br/>
 **- Window From Left:** Adjust mapping window position from the left of the screen in pixels.<br/>
 Click on the "Save" button to save your changes or select "Cancel" to not save changes and close the settings window.<br/>
@@ -97,6 +97,7 @@ Click on the "Save" button to save your changes or select "Cancel" to not save c
 
 ### Common System Requirements:
 The following applications are in general use of most Linux systems and are used in having qFind deliver output:
+- awk
 - grep
 - read
 - rm
@@ -129,16 +130,10 @@ Terminal=false<br/>
 
 ### Project Contents:
 **Project Page:** <br/>
-
-
+[https://github.com/rweckert/gMapping]([url](https://github.com/rweckert/gMapping))<br/>
 **Source File:** <br/>
-
-
+[https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/gMapping.sh](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/gMapping.sh)<br/>
 **Documentation File:** <br/>
-
-
+[https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/README.md](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/README.md)<br/>
 **Project Screenshot:** <br/>
-
-
-
-
+[https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/screenshot-gMapping.jpg](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/screenshot-gMapping.jpg)<br/>
