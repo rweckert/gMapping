@@ -8,7 +8,7 @@ Open gMappng to enable mapping features from the Linux desktop providing satelli
 
 ### Setup:
 - Save the gMapping.sh file to a directory.
-- Make the gMapping.sh script executable by running the following command in the same directory as the gMapping.sh file:
+- Make the gMapping.sh script executable by running the following command in the same directory as the gMapping.sh file:<br/>
 _chmod +x gMapping.sh_
 
 ### Features:
@@ -69,7 +69,7 @@ Each mapping menu has a option for “Save” which allows the user to save the 
 
 ### Options Usage:
 The "Options" main menu option allows the user to change settings for the theme being used, map window size and locaton, as well as access to "Help" and "About" options.
-## Theme Options:
+#### Theme Options:
 When viewing the "Theme" option, the following options are available:<br/>
 **- Load Theme:** Allows the user to browse their system for a theme to use.<br/>
 **- Apply Loaded Theme:** Applies the loaded theme. Once selected the Options window will close and re-open showing the theme selected in use.<br/>
@@ -79,7 +79,7 @@ When viewing the "Theme" option, the following options are available:<br/>
 **- Help:** Opens gMapping help documentation.<br/>
 **- About:** Opens the about window showing script credits.<br/>
 **- Close:** Closes the "Options" window.
-## Map Position:
+#### Map Position:
 This screen contains options to adjust the positioning and size of the mapping window:
 **- Window Width:** Adjust the mapping window width by pixels.<br/>
 **- window Height:** Adjust the mapping window height by pixels.<br/>
