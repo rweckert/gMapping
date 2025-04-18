@@ -23,6 +23,7 @@ _chmod +x gMapping.sh_
 - Export saved map links.
 - Customize map window by size and position.
 - Theme options for system default or custom.
+- Use the 'F1' key for documentation from any main window.
 
 ### Typical Usage:
 When running mRunner the main menu will appear showing options for different ways of creating a map. Choosing a option will bring another menu asking for mapping details including map type and zoom level. Click on the “Map” button to have a Google embedded map appear based on the criteria you have provided.
