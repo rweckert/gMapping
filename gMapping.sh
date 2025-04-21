@@ -1,5 +1,5 @@
 #!/bin/bash
-# gMapping.sh Created: 02/27/2025 Updated: 04/17/2025
+# gMapping.sh Created: 02/27/2025 Updated: 04/20/2025
 # Robert W. Eckert - rweckert@gmail.com
 #            _____                       .__                
 #    ____   /     \ _____  ______ ______ |__| ____    ____  
@@ -18,6 +18,7 @@ export tf="$td/gMapping.txt"
 export ti="$td/gMapping.ini"
 export tt="$td/gMapping.tmp"
 export th="$td/gMapping.html"
+export te="$td/gmExport.txt"
 export mt=$(echo "road,satellite")
 export zl=$(echo "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21")
 
@@ -240,7 +241,7 @@ $fcall mGSave
 function vSaved {
 if [ ! -f $td/gmSaved.txt ]; then echo -n "" > "$td/gmSaved.txt"; fi
 sm='@sh -c "echo %s > $tt & $app lSaved"'
-ydo=$(yad --list --css="$tp" --posx=20 --posy=115 --width=800 --height=400 --title="Saved Maps" --name="vSave" --window-icon="text-x-script" --dclick-action="$sm" --separator="," --item-separator="," --center --f1-action="$app mHelp" --button="Selected Detail":4 --button="Clear List":3 --button="Open List":2 --button="Close":1 --columns=3 --column="Location" --column="Date Time" --column="Map Type" --column="Link"  < $td/gmSaved.txt > $td/gmExport.txt)
+ydo=$(yad --list --css="$tp" --posx=20 --posy=115 --width=800 --height=400 --title="Saved Maps" --name="vSave" --window-icon="text-x-script" --dclick-action="$sm" --separator="," --item-separator="," --center --f1-action="$app mHelp" --button="Selected Detail":4 --button="Clear List":3 --button="Open List":2 --button="Close":1 --columns=3 --column="Location" --column="Date Time" --column="Map Type" --column="Link"  < $td/gmSaved.txt > "$te")
 ydo=$?
 if [ $ydo -eq 1 ]; then wmctrl -c 'Saved Maps'; fi
 if [ $ydo -eq 2 ]; then xdg-open $td/gmSaved.txt;vSaved; fi
@@ -268,7 +269,7 @@ $fcall lSaved
 
 # View Detail: =========================
 function vDetail {
-read gld < "$td/gmExport.txt"
+read gld < "te"
 gml=$(echo $gld | awk 'BEGIN {FS="," } { print $1 }')
 gmd=$(echo $gld | awk 'BEGIN {FS="," } { print $2 }')
 gmt=$(echo $gld | awk 'BEGIN {FS="," } { print $3 }')
@@ -403,7 +404,7 @@ $fcall tBrowse
 
 # Main Help: ===========================
 function mHelp {
-yad --html --browser --css="$tp" --width=900 --height=500 --posx=20 --posy=115 --title="gMapping-Documentation" --name="mHelp" --window-icon="text-x-script"  --uri="/home/rweckert/WinXBin/Source/gMapping/readme-gMapping.txt" --file-op 2>/dev/null
+yad --html --browser --css="$tp" --width=900 --height=500 --posx=20 --posy=115 --title="gMapping-Documentation" --name="mHelp" --window-icon="text-x-script"  --uri="https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/README.md" --file-op 2>/dev/null
 }
 $fcall mHelp
 
@@ -416,7 +417,7 @@ yad --about --css="$tp" \
 --license="GPL3" \
 --comments="gMapping is a simple map browser using the embedded Google Maps API.
 Requires YAD 14.0+ (GTK+ 3.24.41)" \
---copyright="Updated 04/17/2025 by Robert W Eckert" \
+--copyright="Updated 04/20/2025 by Robert W Eckert" \
 --pversion="Version: 1.5" \
 --pname="gMapping" \
 --button="Close!gtk-close":1
@@ -464,7 +465,7 @@ wmctrl -c 'gMapping-Theme'
 wmctrl -c 'gMapping-Options'
 wmctrl -c 'gMapping-Settings'
 wmctrl -c 'gMapping-Documentation'
-rm -f "$td/gmExport.txt"
+rm -f "$te"
 rm -f "$tf"
 rm -f "$tt"
 rm -f "$th"
