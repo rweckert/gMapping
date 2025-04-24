@@ -7,7 +7,7 @@ Open gMappng to enable mapping features from the Linux desktop providing satelli
 ![qFind Screenshot](https://github.com/rweckert/gMapping/blob/main/screenshot-gMapping.jpg)
 
 ### Setup:
-1. Please review "Common System Requirements" and "Critical System Requirements" sections below for basic and critical requirements to run this script successfully. <br/>
+1. Please review "[Common System Requirements](https://github.com/rweckert/gMapping/blob/main/README.md#common-system-requirements)" and "[Critical System Requirements]([url](https://github.com/rweckert/gMapping/blob/main/README.md#critical-system-requirements))" sections below for basic and critical requirements to run this script successfully. <br/>
 2. Save the gMapping.sh file to a directory. <br/>
 3. Make the gMapping.sh script executable by running the following command in the same directory as the gMapping.sh file: <br/>
 _chmod +x gMapping.sh_
@@ -128,12 +128,12 @@ Script interface written by: Robert W. Eckert - rweckert@gmail.com Please feel f
 **Project Page:** <br/>
 [https://github.com/rweckert/gMapping](https://github.com/rweckert/gMapping)<br/>
 **Source File:** <br/>
-[https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/gMapping.sh](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/gMapping.sh)<br/>
+[https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/gMapping.sh](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/gMapping.sh) <br/>
 **Documentation File:** <br/>
-[https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/README.md](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/README.md)<br/>
+[https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/README.md](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/README.md) <br/>
 **Project Screenshot:** <br/>
-[https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/screenshot-gMapping.jpg](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/screenshot-gMapping.jpg)<br/>
+[https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/screenshot-gMapping.jpg](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/screenshot-gMapping.jpg) <br/>
 **Project License:** <br/>
-
+[https://github.com/rweckert/gMapping/blob/97f80f847c136989abb1cbba8f3bc787ae7739bd/LICENSE](https://github.com/rweckert/gMapping/blob/97f80f847c136989abb1cbba8f3bc787ae7739bd/LICENSE) <br/>
 **GitHub Profile Page:** <br/>
 [https://github.com/rweckert](https://github.com/rweckert)
