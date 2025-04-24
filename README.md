@@ -7,7 +7,7 @@ Open gMappng to enable mapping features from the Linux desktop providing satelli
 ![qFind Screenshot](https://github.com/rweckert/gMapping/blob/main/screenshot-gMapping.jpg)
 
 ### Setup:
-1. Please review "[Common System Requirements](https://github.com/rweckert/gMapping/blob/main/README.md#common-system-requirements)" and "[Critical System Requirements]([url](https://github.com/rweckert/gMapping/blob/main/README.md#critical-system-requirements))" sections below for basic and critical requirements to run this script successfully. <br/>
+1. Please review "[Common System Requirements](https://github.com/rweckert/gMapping/blob/main/README.md#common-system-requirements)" and "[Critical System Requirements](https://github.com/rweckert/gMapping/blob/main/README.md#critical-system-requirements)" sections below for basic and critical requirements to run this script successfully. <br/>
 2. Save the gMapping.sh file to a directory. <br/>
 3. Make the gMapping.sh script executable by running the following command in the same directory as the gMapping.sh file: <br/>
 _chmod +x gMapping.sh_
