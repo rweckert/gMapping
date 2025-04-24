@@ -111,7 +111,7 @@ Icon=text-html<br/>
 Terminal=false<br/>
 
 ### Common System Requirements:
-Common shell commands found in most Linux installations are used to provide system functionalilty for this and other scripts shared from this profile. For thoroughness, these common shell commands are listed in alphabetical order with version and man page link for review: 
+Common shell commands found in most Linux installations are used to provide system functionalilty for this and other scripts shared from this profile. For thoroughness, these common shell commands are listed in alphabetical order with version and man page link for review: [https://github.com/rweckert/gMapping/blob/97f80f847c136989abb1cbba8f3bc787ae7739bd/README-Basic-Requirements.md](https://github.com/rweckert/gMapping/blob/97f80f847c136989abb1cbba8f3bc787ae7739bd/README-Basic-Requirements.md)
 
 ### Critical System Requirements:
 Packages listed below provide the core ingredients for graphic display and desired output that enables gMapping to deliver output and are critical for successful execution of the the script:
