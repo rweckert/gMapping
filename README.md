@@ -1,4 +1,4 @@
-# gMapping
+# <img align="left" width="48" src="Icon-gMapping.png" /> gMapping
 gMapping is a simple map browser using the embedded Google Maps API.
 
 ### Script Purpose as a Tool:
@@ -7,8 +7,9 @@ Open gMappng to enable mapping features from the Linux desktop providing satelli
 ![qFind Screenshot](https://github.com/rweckert/gMapping/blob/main/screenshot-gMapping.jpg)
 
 ### Setup:
-1. Save the gMapping.sh file to a directory.
-2. Make the gMapping.sh script executable by running the following command in the same directory as the gMapping.sh file:<br/>
+1. Please review "Common System Requirements" and "Critical System Requirements" sections below for basic and critical requirements to run this script successfully. <br/>
+2. Save the gMapping.sh file to a directory. <br/>
+3. Make the gMapping.sh script executable by running the following command in the same directory as the gMapping.sh file: <br/>
 _chmod +x gMapping.sh_
 
 ### Features:
@@ -70,6 +71,7 @@ Each mapping menu has a option for “Save” which allows the user to save the 
 
 ### Options Usage:
 The "Options" main menu option allows the user to change settings for the theme being used, map window size and locaton, as well as access to "Help" and "About" options.
+
 #### Theme Options:
 When viewing the "Theme" option, the following options are available:<br/>
 **- Load Theme:** Allows the user to browse their system for a theme to use.<br/>
@@ -80,6 +82,7 @@ When viewing the "Theme" option, the following options are available:<br/>
 **- Help:** Opens gMapping help documentation.<br/>
 **- About:** Opens the about window showing script credits.<br/>
 **- Close:** Closes the "Options" window.<br/>
+
 #### Map Position:
 This screen contains options to adjust the positioning and size of the mapping window:<br/>
 **- Window Width:** Adjust the mapping window width by pixels.<br/>
@@ -96,28 +99,6 @@ Click on the "Save" button to save your changes or select "Cancel" to not save c
 - A map location no found will default to the world map.
 - Map links extracted will only work within a "FRAME" html element.
 
-### Common System Requirements:
-The following applications are in general use of most Linux systems and are used in having qFind deliver output:
-- awk
-- grep
-- read
-- rm
-- sed
-- wmctrl
-- xdg-open
-
-### Critical System Requirements:
-The most important requirement is the yad (yet another dialog) application which allows for the use of custom dialog, menu, and window options.
-
-- yad 14.0+ (GTK+ 3.24.41) [https://github.com/v1cont/yad](https://github.com/v1cont/yad)
-
-The gMapping script uses features of yad that do require version 14.0+ and built with GTK+ 3.24.41 or higher. Full setup instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base: [https://github.com/rweckert/yad-14.0-Setup-From-Scratch](https://github.com/rweckert/yad-14.0-Setup-From-Scratch)
-
-YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Linux, is written by Victor Ananjevsky.
-
-Script interface written by: Robert W. Eckert - rweckert@gmail.com
-Please feel free to email to submit bugs, changes or requests.
-
 ### gMapping Shortcut File: <br/>
 Save the following as a file named "gMapping.desktop" in creating a shortcut to this utility. Update the path for "Exec" to where the script is stored.<br/>
 [Desktop Entry]<br/>
@@ -129,6 +110,20 @@ Type=Application<br/>
 Icon=text-html<br/>
 Terminal=false<br/>
 
+### Common System Requirements:
+Common shell commands found in most Linux installations are used to provide system functionalilty for this and other scripts shared from this profile. For thoroughness, these common shell commands are listed in alphabetical order with version and man page link for review: 
+
+### Critical System Requirements:
+Packages listed below provide the core ingredients for graphic display and desired output that enables gMapping to deliver output and are critical for successful execution of the the script:
+| Package       | Version              | Notes         |
+|     :---:     |         :---:        | :---          |
+| yad           | 14.0+ (GTK+ 3.24.41) | A tool for developing graphical user interfaces in Linux and is used by this script to generate menus and dialog windows, is written by Victor Ananjevsky. **Download:** [https://github.com/v1cont/yad](https://github.com/v1cont/yad) **Setup:** Step by step instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base: [https://github.com/rweckert/yad-14.0-Setup-From-Scratch](https://github.com/rweckert/yad-14.0-Setup-From-Scratch) |
+
+### Closing:
+Script interface written by: Robert W. Eckert - rweckert@gmail.com Please feel free to email to submit bugs, changes or requests. This script comes with absolutely no warranty. See the link for the GNU General Public License, version 3 or later listed below for further details.
+
+---
+
 ### Project Contents:
 **Project Page:** <br/>
 [https://github.com/rweckert/gMapping](https://github.com/rweckert/gMapping)<br/>
@@ -138,3 +133,7 @@ Terminal=false<br/>
 [https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/README.md](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/README.md)<br/>
 **Project Screenshot:** <br/>
 [https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/screenshot-gMapping.jpg](https://github.com/rweckert/gMapping/blob/fbf31d0c4a3ea1d8de893b029127d02b7bf42163/screenshot-gMapping.jpg)<br/>
+**Project License:** <br/>
+
+**GitHub Profile Page:** <br/>
+[https://github.com/rweckert](https://github.com/rweckert)
